@@ -7,6 +7,7 @@ export default (props) => (
             <Checkbox 
                 section={section} 
                 key={section.name}
+                handleChangeSection={props.handleChangeSection}
             />)}
     </div>
 )

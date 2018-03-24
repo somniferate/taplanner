@@ -9,14 +9,30 @@ class App extends React.Component {
         super(props);
         this.state = {
             sectionList: undefined,
-            selectedSections: undefined
         }
     }
 
     componentWillMount() {
         this.setState(() => ({
-            sectionList: data.sort((a,b) => a.kilometer - b.kilometer),
-            selectedSections: data.filter(a => a.isChecked === true).map(a => a.name)
+            sectionList: data.sort((a, b) => a.kilometer - b.kilometer),
+        }))
+    }
+
+    handleChangeSection = (newSection) => {
+        console.log(`Changing from ${newSection}`)
+        this.setState((prevState) => ({
+            sectionList: prevState.sectionList.map(section => {
+                if (section.name === newSection) {
+                    return {
+                        name: section.name,
+                        kilometer: section.kilometer,
+                        note: section.note,
+                        isChecked: !section.isChecked
+                    }
+                } else {
+                    return section
+                }
+            })
         }))
     }
 
@@ -24,13 +40,18 @@ class App extends React.Component {
         return (
             <div className="content-container">
                 <div>
-                    <SectionSelector 
-                        sectionList={this.state.sectionList.map(section => 
+                    <SectionSelector
+                        sectionList={this.state.sectionList.map(section =>
                             ({
-                                name: section.name, 
+                                name: section.name,
                                 isChecked: section.isChecked
                             }))}
-                        selectedSections={this.state.selectedSections}/>
+                        handleChangeSection={this.handleChangeSection} />
+                </div>
+                <div>
+                    <SectionList
+                        sectionList={this.state.sectionList.filter(section => section.isChecked)}
+                    />
                 </div>
             </div>
         )

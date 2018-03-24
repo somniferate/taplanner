@@ -9,6 +9,7 @@ class Checkbox extends React.Component {
     }
 
     handleOnChange = () => {
+        this.props.handleChangeSection(this.props.section.name)
         this.setState((prevState) => ({
             isChecked: !prevState.isChecked
         }))
