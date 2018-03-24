@@ -1,8 +1,8 @@
 import React from "react"
 import OptionsMenu from "./OptionsMenu"
 import SectionList from "./SectionList"
-import data from "../data/test"
 import SectionSelector from "./SectionSelector";
+import data from "../data/TAData"
 
 class App extends React.Component {
     constructor(props) {

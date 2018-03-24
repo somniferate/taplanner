@@ -1,0 +1,46 @@
+name,kilometer,isChecked,note,link
+Cape Reinga,0,TRUE,,https://www.teararoa.org.nz/northland/cape-reinga-ahipara/
+Ahipara,100.5,TRUE,,https://www.teararoa.org.nz/northland/northland-forests/
+Kerikeri Basin,222.5,TRUE,,https://www.teararoa.org.nz/northland/kerikeri-waitangi/
+Paihia,243.5,FALSE,,https://www.teararoa.org.nz/northland/paihia-opua-coastal-walkway/
+Waipu,428.5,TRUE,,https://www.teararoa.org.nz/northland/cullen-brynderwyn-walkway/
+Mangawhai Heads,449.5,FALSE,,https://www.teararoa.org.nz/auckland/mangawhai-pakiri/
+Puhoi Village,533,FALSE,,https://www.teararoa.org.nz/auckland/puhoi-to-wenderholm-kayak/
+Long Bay,573,FALSE,,https://www.teararoa.org.nz/auckland/north-shore-coastal-walk/
+Auckland CBD,596.5,TRUE,,https://www.teararoa.org.nz/auckland/coast-to-coast-walkway/
+Mercer,722.5,FALSE,,https://www.teararoa.org.nz/waikato/mercer-rangiriri/
+Huntly,769.5,FALSE,,https://www.teararoa.org.nz/waikato/rangiriri-huntly/
+Hamilton,793.5,TRUE,,https://www.teararoa.org.nz/waikato/hamilton-city/
+Waitomo Village,899.5,FALSE,,https://www.teararoa.org.nz/waikato/pehitawa-track/
+Te Kuiti,917,TRUE,,https://www.teararoa.org.nz/waikato/te-kuiti-pureora/
+Taumarunui,1083,TRUE,,https://www.teararoa.org.nz/waikato/42-traverse/
+National Park,1201.5,TRUE,,https://www.teararoa.org.nz/whanganui/national-park-whanganui-river/
+Whakahoro,1245.5,TRUE,Many people start their river journey here.,
+Mangapurua Landing - Official Whanganui River,1290.5,FALSE,,https://www.teararoa.org.nz/whanganui/whanganui-river/
+Wanganui,1409.5,TRUE,,https://www.teararoa.org.nz/whanganui/wanganui-bulls/
+Bulls,1468,TRUE,,https://www.teararoa.org.nz/manawatu/bulls-feilding/
+Feilding,1489,FALSE,,https://www.teararoa.org.nz/manawatu/feilding-palmerston-north/
+Palmerston North,1516.5,FALSE,,https://www.teararoa.org.nz/manawatu/massey-levin/
+Levin,1576.5,TRUE,,https://www.teararoa.org.nz/wellington/tararua-ranges/
+Waikanae,1646.5,FALSE,,https://www.teararoa.org.nz/wellington/kapiti-coast/
+Porirua,1692,FALSE,,https://www.teararoa.org.nz/wellington/colonial-knob/
+Wellington,1729,TRUE,,https://www.teararoa.org.nz/wellington/wellington-south/
+Island Bay,1740,TRUE,,
+Ship Cove,1740,TRUE,,https://www.teararoa.org.nz/nelsonmarlborough/queen-charlotte-track/
+Havelock,1818.5,TRUE,,
+Pelorus Bridge,1844,FALSE,,https://www.teararoa.org.nz/nelsonmarlborough/pelorus-track/
+St Arnaud,1984,TRUE,,https://www.teararoa.org.nz/nelsonmarlborough/waiau-track/
+Boyle Village,2099.5,TRUE,,https://www.teararoa.org.nz/canterbury/boyle-arthurs-pass/
+Arthur’s Pass,2212.5,TRUE,,https://www.teararoa.org.nz/canterbury/arthurs-pass-rakaia/
+Raikura River – Methven,2284.5,TRUE,Danger. Hazard Zone,https://www.teararoa.org.nz/canterbury/rakaia-river-safety-zone/
+Rangitata River – Ashburton,2354.5,TRUE,Danger. Hazard Zone,https://www.teararoa.org.nz/canterbury/rangitata-river-safety-zone/
+Lake Tekapo Village,2427,TRUE,,https://www.teararoa.org.nz/canterbury/tekapo-ohau/
+Lake Hawea,2592,FALSE,,https://www.teararoa.org.nz/otago/gladstone-wanaka/
+Wanaka,2622.5,TRUE,,https://www.teararoa.org.nz/otago/glendhu-bay-track/
+Arrowtown,2686,FALSE,,https://www.teararoa.org.nz/otago/wakatipu-track/
+Queenstown,2714.5,TRUE,Danger. Hazard Zone,https://www.teararoa.org.nz/otago/lake-wakatipu-hazard-zone/
+Junction of SH94 and Princhester Rd – Te Anau,2808.5,TRUE,,https://www.teararoa.org.nz/southland/takitimu-track/
+Junction of Otautau-Tuatapere – Otautau,2904,TRUE,,https://www.teararoa.org.nz/southland/longwood-forest-track/
+Riverton,2975,FALSE,,https://www.teararoa.org.nz/southland/oreti-beach-track/
+Invercargill,3007,TRUE,,https://www.teararoa.org.nz/southland/invercargill-bluff/
+"Sterling Point, Bluff",3041,TRUE,,

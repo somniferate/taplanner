@@ -6,7 +6,7 @@ export default (props) => (
         {props.sectionList.map((section, index, array) => {
             if (index !== array.length - 1) {
                 return <SectionListItem 
-                    key={section.kilometer}
+                    key={section.name}
                     firstSection={section}
                     secondSection={array[index+1]}
                 />
