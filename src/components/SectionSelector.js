@@ -2,7 +2,7 @@ import React from "react"
 import Checkbox from "./SectionCheckbox"
 
 export default (props) => (
-    <div>
+    <div className="dark-grey-card">
         {props.sectionList.map(section => 
             <Checkbox 
                 section={section} 

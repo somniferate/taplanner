@@ -1,0 +1,13 @@
+.dark-grey-card {
+    background-color: $light-grey;
+    border-radius: $m-size;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: $s-size; 
+}
+
+.dark-grey-card--section-list {
+    margin: 0 0 $m-size $m-size;
+    h3 {
+        margin: 5px 0;
+    }
+}

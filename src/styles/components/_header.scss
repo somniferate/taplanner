@@ -1,0 +1,11 @@
+.header__background {
+    background-color: $dark-grey;
+    border-bottom: darken($dark-grey, 20);
+    margin-bottom: $m-size;
+
+    h1 {
+        color: $off-white;
+        font-family: $itim;
+        margin: $s-size 0;
+    }
+}

@@ -39,19 +39,21 @@ class App extends React.Component {
     render() {
         return (
             <div className="content-container">
-                <div>
-                    <SectionSelector
-                        sectionList={this.state.sectionList.map(section =>
-                            ({
-                                name: section.name,
-                                isChecked: section.isChecked
-                            }))}
-                        handleChangeSection={this.handleChangeSection} />
-                </div>
-                <div>
-                    <SectionList
-                        sectionList={this.state.sectionList.filter(section => section.isChecked)}
-                    />
+                <div className="app__wrapper">
+                    <div className="app__selector">
+                        <SectionSelector
+                            sectionList={this.state.sectionList.map(section =>
+                                ({
+                                    name: section.name,
+                                    isChecked: section.isChecked
+                                }))}
+                            handleChangeSection={this.handleChangeSection} />
+                    </div>
+                    <div className="app__sections">
+                        <SectionList
+                            sectionList={this.state.sectionList.filter(section => section.isChecked)}
+                        />
+                    </div>
                 </div>
             </div>
         )

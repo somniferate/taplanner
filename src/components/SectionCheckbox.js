@@ -23,8 +23,10 @@ class Checkbox extends React.Component {
                     defaultChecked={this.state.isChecked}
                     onChange={this.handleOnChange}
                 />
-                {this.props.section.name}
-                <br />
+                <span
+                    className={this.state.isChecked ? "is-active" : undefined}>
+                    {this.props.section.name}
+                </span>
             </div>)
     }
 }
